@@ -1,0 +1,51 @@
+@font-face{
+    font-family: 'nunitosans';
+    src: url(../fonts/nunitosans/nunitosans-regular-webfont.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'nunitosans';
+    src: url(../fonts/nunitosans/nunitosans-italic-webfont.woff2) format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face{
+    font-family: 'nunitosans';
+    src: url(../fonts/nunitosans/nunitosans-black-webfont.woff2) format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'nunitosans';
+    src: url(../fonts/nunitosans/nunitosans-blackitalic-webfont.woff2) format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+
+body{
+    background-color: black;
+}
+h1,h2,h3{
+    color: whitesmoke;
+}
+h1.title{
+    font-family: 'nunitosans';
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2.bday{
+    font-family: 'nunitosans';
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.card{
+    font-family: 'nunitosans';
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
