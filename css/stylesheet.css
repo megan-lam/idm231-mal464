@@ -1,51 +1,57 @@
 @font-face{
-    font-family: 'nunitosans';
-    src: url(../fonts/nunitosans/nunitosans-regular-webfont.woff2) format('woff2');
+    font-family: 'proxima';
+    src: url(../fonts/proximanova/proxima-nova-reg-webfont.woff2) format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 @font-face{
-    font-family: 'nunitosans';
-    src: url(../fonts/nunitosans/nunitosans-italic-webfont.woff2) format('woff2');
-    font-weight: normal;
-    font-style: italic;
-}
-@font-face{
-    font-family: 'nunitosans';
-    src: url(../fonts/nunitosans/nunitosans-black-webfont.woff2) format('woff2');
+    font-family: 'proxima';
+    src: url(../fonts/proximanova/proxima-nova-bold-webfont.woff2) format('woff2');
     font-weight: bold;
     font-style: normal;
-}
-@font-face{
-    font-family: 'nunitosans';
-    src: url(../fonts/nunitosans/nunitosans-blackitalic-webfont.woff2) format('woff2');
-    font-weight: bold;
-    font-style: italic;
 }
 
-body{
+body{ 
+    background-image: url("../images/background.png");
     background-color: black;
+    
 }
 h1,h2,h3{
     color: whitesmoke;
 }
 h1.title{
-    font-family: 'nunitosans';
+    font-family: 'proxima';
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
 }
 h2.bday{
-    font-family: 'nunitosans';
+    font-family: 'proxima';
     font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
 }
 .card{
-    font-family: 'nunitosans';
+    font-family: 'proxima';
     font-size: 1rem;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
 }
+.arkangel,.black,.crocodile,.entire,.hang,.hated,.nosedive,.playtest,.san,.shut,.uss,.white{
+    height: 200px;
+    width: 200px;
+}
+
+.san{transform:rotate(30deg);}
+.hang{transform:rotate(60deg);}
+.shut{transform:rotate(90deg);}
+.crocodile{transform:rotate(90deg);}
+.playtest{transform:rotate(120deg);}
+.entire{transform:rotate(150deg);}
+.black{transform:rotate(180deg);}
+.arkangel{transform:rotate(210deg);}
+.hated{transform:rotate(240deg);}
+.white{transform:rotate(270deg);}
+.nosedive{transform:rotate(300deg);}
