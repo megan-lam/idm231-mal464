@@ -44,14 +44,28 @@ h2.bday{
     width: 200px;
 }
 
-.san{transform:rotate(30deg);}
-.hang{transform:rotate(60deg);}
-.shut{transform:rotate(90deg);}
-.crocodile{transform:rotate(90deg);}
-.playtest{transform:rotate(120deg);}
-.entire{transform:rotate(150deg);}
-.black{transform:rotate(180deg);}
-.arkangel{transform:rotate(210deg);}
-.hated{transform:rotate(240deg);}
-.white{transform:rotate(270deg);}
-.nosedive{transform:rotate(300deg);}
+.circle {
+    align-content: center;
+    position: relative;
+    height:46rem;
+    width: 46rem;
+}
+.center_image{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.uss{transform: translate(33rem);}
+.san{transform: translate(30.5rem) translateY(-5px) rotate(30deg);}
+.hang{transform:translate(27rem) translateY(4.5rem) rotate(60deg);}
+.shut{transform:translate(45rem) translateY(.5rem) rotate(90deg);}
+.crocodile{transform:translate(32.5rem) translateY(11rem) rotate(120deg);}
+.playtest{transform:translate(53rem) translateY(7.3rem) rotate(150deg);}
+.entire{transform:translate(31.5rem) translateY(12.7rem) rotate(180deg);}
+.black{transform:translate(8.5rem) translateY(13.2rem) rotate(210deg);}
+.arkangel{transform:translate(24.7rem) translateY(-4.4rem) rotate(240deg);}
+.hated{transform:translate(6.5rem) translateY(-13.2rem) rotate(270deg);}
+.white{transform:translate(-6.5rem) translateY(-23.7rem) rotate(300deg);}
+.nosedive{transform:translate(24rem) translateY(-7.3rem) rotate(330deg);}
