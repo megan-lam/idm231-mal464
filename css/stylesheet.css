@@ -27,10 +27,20 @@ h1.title{
 }
 h2.bday{
     font-family: 'proxima';
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
-    text-align: center;
     text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.input{
+    position: absolute;
+    text-align: center;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .card{
     font-family: 'proxima';
@@ -40,23 +50,46 @@ h2.bday{
     text-transform: uppercase;
 }
 .arkangel,.black,.crocodile,.entire,.hang,.hated,.nosedive,.playtest,.san,.shut,.uss,.white{
-    height: 200px;
-    width: 200px;
+    height: 110.7px;
+    width: 158.1px;
 }
 
 .circle {
-    align-content: center;
-    position: relative;
-    height:46rem;
-    width: 46rem;
-}
-.center_image{
-    display: block;
-    position: absolute;
-    left: 50%;
-    top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height:48rem;
+    width: 50rem;
+    padding: .5rem;
+    
 }
 
+img.blackmirror{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 5%;
+    text-align: center;
+    width: 500px;
+    height:500px;
+}
+.uss{transform: translateY(.2rem);}
+.san{transform: rotate(30deg);}
+.hang{transform: translate(-1.1rem) translateY(4.5rem) rotate(60deg);}
+.shut{transform: translate(14.4rem) translateY(5.9rem) rotate(90deg);}
+.crocodile{transform: translate(14.7rem) translateY(8.9rem) rotate(120deg);}
+.playtest{transform: translate(19.8rem) translateY(25rem) rotate(150deg);}
+.entire{transform: translate(11.2rem) translateY(23.2rem)rotate(180deg);}
+.black{transform: translate(11.2rem) translateY(23.2rem) rotate(210deg);}
+.arkangel{transform: translate(-28.2rem) translateY(19rem) rotate(240deg);}
+.hated{transform:translate(-33.7rem) translateY(17.4rem)rotate(270deg);}
+.white{transform:translate(-3.5rem) translateY(7.2rem) rotate(300deg);}
+.nosedive{transform: translate(1.5rem) translateY(5.5rem)rotate(330deg);}
+/*
 .uss{transform: translate(33rem);}
 .san{transform: translate(30.5rem) translateY(-5px) rotate(30deg);}
 .hang{transform:translate(27rem) translateY(4.5rem) rotate(60deg);}
