@@ -42,6 +42,14 @@ h2.bday{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.help{
+    position:absolute;
+    top: 1%;
+    right:1%;
+    width: 50px;
+    height: 50px;
+ 
+}
 .card{
     font-family: 'proxima';
     font-size: 1rem;
@@ -79,9 +87,9 @@ img.blackmirror{
 }
 .uss{transform: translateY(.2rem);}
 .san{transform: rotate(30deg);}
-.hang{transform: translate(-1.1rem) translateY(4.5rem) rotate(60deg);}
-.shut{transform: translate(14.4rem) translateY(5.9rem) rotate(90deg);}
-.crocodile{transform: translate(14.7rem) translateY(8.9rem) rotate(120deg);}
+.hang{transform: translate(-1.3rem) translateY(4.7rem) rotate(60deg);}
+.shut{transform: translate(14.1rem) translateY(5.9rem) rotate(90deg);}
+.crocodile{transform: translate(14.4rem) translateY(8.9rem) rotate(120deg);}
 .playtest{transform: translate(19.8rem) translateY(25rem) rotate(150deg);}
 .entire{transform: translate(11.2rem) translateY(23.2rem)rotate(180deg);}
 .black{transform: translate(11.2rem) translateY(23.2rem) rotate(210deg);}
