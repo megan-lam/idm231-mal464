@@ -85,18 +85,55 @@ img.blackmirror{
     width: 500px;
     height:500px;
 }
-.uss{transform: translateY(.2rem);}
-.san{transform: rotate(30deg);}
-.hang{transform: translate(-1.3rem) translateY(4.7rem) rotate(60deg);}
-.shut{transform: translate(14.1rem) translateY(5.9rem) rotate(90deg);}
-.crocodile{transform: translate(14.4rem) translateY(8.9rem) rotate(120deg);}
-.playtest{transform: translate(19.8rem) translateY(25rem) rotate(150deg);}
-.entire{transform: translate(11.2rem) translateY(23.2rem)rotate(180deg);}
-.black{transform: translate(11.2rem) translateY(23.2rem) rotate(210deg);}
-.arkangel{transform: translate(-28.2rem) translateY(19rem) rotate(240deg);}
-.hated{transform:translate(-33.7rem) translateY(17.4rem)rotate(270deg);}
-.white{transform:translate(-3.5rem) translateY(7.2rem) rotate(300deg);}
-.nosedive{transform: translate(1.5rem) translateY(5.5rem)rotate(330deg);}
+.nosedive{
+    background-image: url("../images/cropped/cropped_nosedive1.png");
+}
+.uss{
+    background-image: url("../images/cropped/cropped_usscallister1.png");
+    transform: translateY(.2rem);}
+.san{
+    background-image: url("../images/cropped/cropped_sanjunipero1.png");
+    transform: rotate(30deg);
+}
+.hang{
+    background-image: url("../images/cropped/cropped_hangthedj1.png");
+    transform: translate(-1.3rem) translateY(4.7rem) rotate(60deg);
+}
+.shut{
+    background-image: url("../images/cropped/cropped_shutup1.png");
+    transform: translate(14.1rem) translateY(5.9rem) rotate(90deg);
+}
+.crocodile{
+    background-image: url("../images/cropped/cropped_crocodile1.png");
+    transform: translate(14.4rem) translateY(8.9rem) rotate(120deg);
+}
+.playtest{
+    background-image: url("../images/cropped/cropped_playtest1.png");
+    transform: translate(19.8rem) translateY(25rem) rotate(150deg);
+}
+.entire{background-image: url("../images/cropped/cropped_entirehistory1.png");
+    transform: translate(11.2rem) translateY(23.2rem)rotate(180deg);
+}
+.black{
+    background-image: url("../images/cropped/cropped_blackmuseum1.png");
+    transform: translate(11.2rem) translateY(23.2rem) rotate(210deg);
+}
+.arkangel{
+    background-image: url("../images/cropped/cropped_arkangel1.png");
+    transform: translate(-28.2rem) translateY(19rem) rotate(240deg);
+}
+.hated{
+    background-image: url("../images/cropped/cropped_hated1.png");
+    transform:translate(-33.7rem) translateY(17.4rem)rotate(270deg);
+}
+.white{
+    background-image: url("../images/cropped/cropped_whitebear1.png");
+    transform:translate(-3.5rem) translateY(7.2rem) rotate(300deg);
+}
+.nosedive{
+    background-image: url("../images/cropped/cropped_nosedive1.png");
+    transform: translate(1.5rem) translateY(5.5rem)rotate(330deg);
+}
 /*
 .uss{transform: translate(33rem);}
 .san{transform: translate(30.5rem) translateY(-5px) rotate(30deg);}
