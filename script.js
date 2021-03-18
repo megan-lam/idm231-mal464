@@ -86,7 +86,7 @@ const info = document.getElementById('info');
 function userPicked(whichOne) {
     console.log('userPicked called: ' + whichOne);
     switch (whichOne) {
-case 'noseObj' :
+case 'nose' :
     img.src = 'images/modal_img/modal_nose.png';
     ep.innerHTML = "SEASON 3 EPISODE 1";
     title.innerHTML = "NOSEDIVE";
@@ -95,7 +95,7 @@ case 'noseObj' :
     modal.hidden = !modal.hidden;
     break;
 
-case 'ussObj' :
+case 'uss' :
     img.src = 'images/modal_img/modal_uss.png';
     ep.innerHTML = "SEASON 4 EPISODE 1";
     title.innerHTML = "USS CALLISTER";
@@ -104,7 +104,7 @@ case 'ussObj' :
     modal.hidden = !modal.hidden;
     break;
 
-case 'sanObj' :
+case 'san' :
     img.src = 'images/modal_img/modal_san.png';
     ep.innerHTML = "SEASON 3 EPISODE 4";
     title.innerHTML = "SAN JUNIPERO";
@@ -113,7 +113,7 @@ case 'sanObj' :
     modal.hidden = !modal.hidden;
     break;
 
-case 'hangObj' :
+case 'hang' :
     img.src = 'images/modal_img/modal_hang.png';
     ep.innerHTML = "SEASON 4 EPISODE 4";
     title.innerHTML = "NOSEDIVE";
@@ -122,7 +122,7 @@ case 'hangObj' :
     modal.hidden = !modal.hidden;
     break;
 
-case 'whiteObj' :
+case 'white' :
     img.src = 'images/modal_img/modal_white.png';
     ep.innerHTML = "SEASON 2 EPISODE 2";
     title.innerHTML = "NOSEDIVE";
@@ -131,7 +131,7 @@ case 'whiteObj' :
     modal.hidden = !modal.hidden;
     break;
 
-case 'playObj' :
+case 'play' :
     img.src = 'images/modal_img/modal_play.png';
     ep.innerHTML = "SEASON 3 EPISODE 2";
     title.innerHTML = "NOSEDIVE";
@@ -140,7 +140,7 @@ case 'playObj' :
     modal.hidden = !modal.hidden;
     break;
 
-case 'shutObj' :
+case 'shut' :
     img.src = 'images/modal_img/modal_shut.png';
     ep.innerHTML = "SEASON 3 EPISODE 3";
     title.innerHTML = "NOSEDIVE";
@@ -149,7 +149,7 @@ case 'shutObj' :
     modal.hidden = !modal.hidden;
     break;
 
-case 'hatedObj' :
+case 'hated' :
     img.src = 'images/modal_img/modal_hated.png';
     ep.innerHTML = "SEASON 3 EPISODE 6";
     title.innerHTML = "NOSEDIVE";
@@ -158,7 +158,7 @@ case 'hatedObj' :
     modal.hidden = !modal.hidden;
     break;
 
-case 'blackObj' :
+case 'black' :
     img.src = 'images/modal_img/modal_black.png';
     ep.innerHTML = "SEASON 4 EPISODE 6";
     title.innerHTML = "NOSEDIVE";
@@ -167,7 +167,7 @@ case 'blackObj' :
     modal.hidden = !modal.hidden;
     break;
 
-case 'entireObj' :
+case 'entire' :
     img.src = 'images/modal_img/modal_entire.png';
     ep.innerHTML = "SEASON 1 EPISODE 3";
     title.innerHTML = "NOSEDIVE";
@@ -176,7 +176,7 @@ case 'entireObj' :
     modal.hidden = !modal.hidden;
     break;
 
-case 'crocObj' :
+case 'croc' :
     img.src = 'images/modal_img/modal_croc.png';
     ep.innerHTML = "SEASON 4 EPISODE 3";
     title.innerHTML = "CROCODILE";
@@ -185,7 +185,7 @@ case 'crocObj' :
     modal.hidden = !modal.hidden;
     break;
 
-case 'arkObj' :
+case 'ark' :
     img.src = 'images/modal_img/modal_ark.png';
     ep.innerHTML = "SEASON 4 EPISODE 2";
     title.innerHTML = "ARKANGEL";
@@ -253,4 +253,3 @@ closeModalObj.addEventListener('click', function() {
   console.log('Close modal!');
   modal.hidden = !modal.hidden;
 });
-
