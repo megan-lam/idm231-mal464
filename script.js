@@ -77,6 +77,11 @@ function userPicked (whichOne){
     console.log('userPicked this function ' + whichOne )
 }
     // modals //
+const img = document.getElementById('img');
+const ep = document.getElementById('ep');
+const title = document.getElementById('title');
+const date = document.getElementById('date');
+const info = document.getElementById('info');
 
 function userPicked(whichOne) {
     console.log('userPicked called: ' + whichOne);
@@ -249,13 +254,3 @@ closeModalObj.addEventListener('click', function() {
   modal.hidden = !modal.hidden;
 });
 
-const btnModal = document.querySelectorAll('.toggle-modal');
-btnModal.forEach(button => {
-  button.addEventListener(
-    'click',
-    () => {
-      modal.hidden = !modal.hidden;
-    },
-    false
-  );
-});
