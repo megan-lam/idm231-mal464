@@ -60,6 +60,7 @@ h2.bday{
 .arkangel,.black,.crocodile,.entire,.hang,.hated,.nosedive,.playtest,.san,.shut,.uss,.white{
     height: 110.7px;
     width: 158.1px;
+    outline: none;
 }
 
 .circle {
@@ -84,6 +85,15 @@ img.blackmirror{
     text-align: center;
     width: 500px;
     height:500px;
+}
+#submit:hover,
+#submit:focus {
+    background-color: rgb(192, 192, 192);
+}
+
+#submit{
+    background-color: whitesmoke;
+    outline: none;
 }
 .nosedive{
     background-image: url("../images/cropped/cropped_nosedive1.png");
