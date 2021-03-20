@@ -249,29 +249,29 @@ let whichMonth = userBday.getUTCMonth();
 let AstroSign = "";
 
 if ((whichMonth == 12 && whichDayOfMonth >= 22) || (whichMonth == 1 && whichDayOfMonth <= 19)) {
-    AstroSign = "Cap";
+    AstroSign = "hated";
   } else if ((whichMonth == 11 && whichDayOfMonth >= 22) || (whichMonth == 12 && whichDayOfMonth <= 21)) {
-    AstroSign = "Sag";
+    AstroSign = "ark";
   } else if ((whichMonth == 10 && whichDayOfMonth >= 24) || (whichMonth == 11 && whichDayOfMonth <= 21)) {
-    AstroSign = "Sco";
+    AstroSign = "black";
   } else if ((whichMonth == 9 && whichDayOfMonth >= 23) || (whichMonth == 10 && whichDayOfMonth <= 23)) {
-    AstroSign = "Lib";
+    AstroSign = "entire";
   } else if ((whichMonth == 8 && whichDayOfMonth >= 23) || (whichMonth == 9 && whichDayOfMonth <= 22)) {
-    AstroSign = "Vir";
+    AstroSign = "play";
   } else if ((whichMonth == 7 && whichDayOfMonth >= 23) || (whichMonth == 8 && whichDayOfMonth <= 22)) {
-    AstroSign = "Leo";
+    AstroSign = "croc";
   } else if ((whichMonth == 6 && whichDayOfMonth >= 22) || (whichMonth == 7 && whichDayOfMonth <= 22)) {
-    AstroSign = "Can";
+    AstroSign = "shut";
   } else if ((whichMonth == 5 && whichDayOfMonth >= 21) || (whichMonth == 6 && whichDayOfMonth <= 21)) {
-    AstroSign = "Gem";
+    AstroSign = "hang";
   } else if ((whichMonth == 4 && whichDayOfMonth >= 20) || (whichMonth == 5 && whichDayOfMonth <= 20)) {
-    AstroSign = "Tau";
+    AstroSign = "san";
   } else if ((whichMonth == 3 && whichDayOfMonth >= 21) || (whichMonth == 4 && whichDayOfMonth <= 19)) {
-    AstroSign = "Ari";
+    AstroSign = "uss";
   } else if ((whichMonth == 2 && whichDayOfMonth >= 19) || (whichMonth == 3 && whichDayOfMonth <= 20)) {
-    AstroSign = "Pis";
+    AstroSign = "nose";
   } else if ((whichMonth == 1 && whichDayOfMonth >= 20) || (whichMonth == 2 && whichDayOfMonth <= 18)) {
-    AstroSign = "Aqu";
+    AstroSign = "white";
   }
 
   console.log('AstroSign is: ' + AstroSign);

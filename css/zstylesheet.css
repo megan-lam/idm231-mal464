@@ -1,0 +1,163 @@
+@font-face{
+    font-family: 'proxima';
+    src: url(../fonts/proximanova/proxima-nova-reg-webfont.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'proxima';
+    src: url(../fonts/proximanova/proxima-nova-bold-webfont.woff2) format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body{ 
+    background-image: url("../images/background.png");
+    background-color: black;
+    
+}
+h1,h2,h3{
+    color: whitesmoke;
+}
+h1.title{
+    font-family: 'proxima';
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2.bday{
+    font-family: 'proxima';
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.input{
+    position: absolute;
+    text-align: center;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.help{
+    position:absolute;
+    top: 1%;
+    right:1%;
+    width: 50px;
+    height: 50px;
+ 
+}
+.card{
+    font-family: 'proxima';
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.arkangel,.black,.crocodile,.entire,.hang,.hated,.nosedive,.playtest,.san,.shut,.uss,.white{
+    height: 110.7px;
+    width: 158.1px;
+    outline: none;
+}
+
+.circle {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height:48rem;
+    width: 50rem;
+    padding: .5rem;
+    
+}
+
+img.blackmirror{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 5%;
+    text-align: center;
+    width: 500px;
+    height:500px;
+}
+#submit:hover,
+#submit:focus {
+    background-color: rgb(192, 192, 192);
+}
+
+#submit{
+    border-radius: 5px;
+    background-color: whitesmoke;
+    outline: none;
+}
+.help{
+    background-image: url(../images/help.svg);
+}
+.nosedive{
+    background-image: url("../images/cropped/cropped_nosedive1.png");
+}
+.uss{
+    background-image: url("../images/cropped/cropped_usscallister1.png");
+    transform: translateY(.2rem);}
+.san{
+    background-image: url("../images/cropped/cropped_sanjunipero1.png");
+    transform: rotate(30deg);
+}
+.hang{
+    background-image: url("../images/cropped/cropped_hangthedj1.png");
+    transform: translate(-1.3rem) translateY(4.7rem) rotate(60deg);
+}
+.shut{
+    background-image: url("../images/cropped/cropped_shutup1.png");
+    transform: translate(14.1rem) translateY(5.9rem) rotate(90deg);
+}
+.crocodile{
+    background-image: url("../images/cropped/cropped_crocodile1.png");
+    transform: translate(14.4rem) translateY(8.9rem) rotate(120deg);
+}
+.playtest{
+    background-image: url("../images/cropped/cropped_playtest1.png");
+    transform: translate(19.8rem) translateY(25rem) rotate(150deg);
+}
+.entire{background-image: url("../images/cropped/cropped_entirehistory1.png");
+    transform: translate(11.2rem) translateY(23.2rem)rotate(180deg);
+}
+.black{
+    background-image: url("../images/cropped/cropped_blackmuseum1.png");
+    transform: translate(11.2rem) translateY(23.2rem) rotate(210deg);
+}
+.arkangel{
+    background-image: url("../images/cropped/cropped_arkangel1.png");
+    transform: translate(-28.2rem) translateY(19rem) rotate(240deg);
+}
+.hated{
+    background-image: url("../images/cropped/cropped_hated1.png");
+    transform:translate(-33.7rem) translateY(17.4rem)rotate(270deg);
+}
+.white{
+    background-image: url("../images/cropped/cropped_whitebear1.png");
+    transform:translate(-3.5rem) translateY(7.2rem) rotate(300deg);
+}
+.nosedive{
+    background-image: url("../images/cropped/cropped_nosedive1.png");
+    transform: translate(1.5rem) translateY(5.5rem)rotate(330deg);
+}
+/*
+.uss{transform: translate(33rem);}
+.san{transform: translate(30.5rem) translateY(-5px) rotate(30deg);}
+.hang{transform:translate(27rem) translateY(4.5rem) rotate(60deg);}
+.shut{transform:translate(45rem) translateY(.5rem) rotate(90deg);}
+.crocodile{transform:translate(32.5rem) translateY(11rem) rotate(120deg);}
+.playtest{transform:translate(53rem) translateY(7.3rem) rotate(150deg);}
+.entire{transform:translate(31.5rem) translateY(12.7rem) rotate(180deg);}
+.black{transform:translate(8.5rem) translateY(13.2rem) rotate(210deg);}
+.arkangel{transform:translate(24.7rem) translateY(-4.4rem) rotate(240deg);}
+.hated{transform:translate(6.5rem) translateY(-13.2rem) rotate(270deg);}
+.white{transform:translate(-6.5rem) translateY(-23.7rem) rotate(300deg);}
+.nosedive{transform:translate(24rem) translateY(-7.3rem) rotate(330deg);}
