@@ -12,8 +12,22 @@
         <div class="center_image">
             <img src='images/black_mirror_zodiac.png' alt="Black Mirror Zodiac" class="blackmirror">
         </div> 
-
     </div>
+
+<!-- preload audio-->
+    <audio id="s_nose" src="sounds/nosedive.mp3" preload="auto"></audio>
+    <audio id="s_uss" src="sounds/uss.mp3" preload="auto"></audio>
+    <audio id="s_san" src="sounds/sanjunipero.mp3" preload="auto"></audio>
+    <audio id="s_hang" src="sounds/hang.mp3" preload="auto"></audio>
+    <audio id="s_white" src="sounds/white.mp3" preload="auto"></audio>
+    <audio id="s_play" src="sounds/playtest.mp3" preload="auto"></audio>
+    <audio id="s_shut" src="sounds/shutup.mp3" preload="auto"></audio>
+    <audio id="s_hated" src="sounds/hated.mp3" preload="auto"></audio>
+    <audio id="s_black" src="sounds/black.mp3" preload="auto"></audio>
+    <audio id="s_entire" src="sounds/entirehistory.mp3" preload="auto"></audio>
+    <audio id="s_croc" src="sounds/crocodile.mp3" preload="auto"></audio>
+    <audio id="s_ark" src="sounds/arkangel.mp3" preload="auto"></audio>
+
     <div class="circle">
         <!--<input type="image" src="images/cropped/cropped_nosedive1.png" name="Nosedive" class="nosedive" id="button" />
         <input type="image" src="images/cropped/cropped_usscallister1.png" name="USS Callister" class="uss" id="button" />
@@ -39,16 +53,37 @@
         <button class="entire" id="entire"></button>
         <button class="crocodile" id="croc"></button>
         <button class="arkangel" id="ark"></button>
+        <button class="help" id="help"></button>
 
 
     </div>
  
     <h2 class="bday">Enter your birthday</h2>
-    <img src='images/help.svg' alt="Help" class="help">
     <div class=input> 
         <p><input id="bday" type="date"></p>
         <p><button id="submit">Submit</button></p>
     </div>
+
+    <!-- help modal -->
+
+    <div>
+        <link rel="stylesheet" href="modal.css" />
+        <div id="modal" class="modal" hidden>
+          <div class="modal-body">
+            <div class="modal-content">
+                <img id="img" src="images/help.png" alt="modal image" class="modal-img">
+                    <div class="modal-text">
+                        <h2 id="ep" class="ep">Season Episode</h2>
+                            <h1 id="title">Show Name</h1> 
+                        <h2 id="date"></h2>
+                    <div id="info">
+                    <p id="info">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    </div>
+              <button id="btn-modal-close" class="toggle-modal"><img src="/images/x.png"></button>
+            </div>
+          </div>
+          <div class="blanket"></div>
 
    <!-- modal -->
     <div>
@@ -75,177 +110,3 @@
 </body>
 </html>
 
-<!--case 'noseObj' :
-    img.src = 'images/modal_img/modal_nose.png';
-    ep.innerHTML = "SEASON 3 EPISODE 1";
-    title.innerHTML = "NOSEDIVE";
-    date.innerHTML = "02/19 - 3/20";
-    info.innerHTML = "A woman desperate to boost her social media score hits the jackpot when she’s invited to a swanky wedding. But the trip doesn’t go as planned."
-    modal.hidden = !modal.hidden;
-    break;
-case 'noseObj' :
-    img.src = 'images/modal_img/modal_nose.png';
-    ep.innerHTML = "SEASON 3 EPISODE 1";
-    title.innerHTML = "NOSEDIVE";
-    date.innerHTML = "02/19 - 3/20";
-    info.innerHTML = "A woman desperate to boost her social media score hits the jackpot when she’s invited to a swanky wedding. But the trip doesn’t go as planned."
-    modal.hidden = !modal.hidden;
-    break;
-case 'noseObj' :
-    img.src = 'images/modal_img/modal_nose.png';
-    ep.innerHTML = "SEASON 3 EPISODE 1";
-    title.innerHTML = "NOSEDIVE";
-    date.innerHTML = "02/19 - 3/20";
-    info.innerHTML = "A woman desperate to boost her social media score hits the jackpot when she’s invited to a swanky wedding. But the trip doesn’t go as planned."
-    modal.hidden = !modal.hidden;
-    break;
-case 'noseObj' :
-    img.src = 'images/modal_img/modal_nose.png';
-    ep.innerHTML = "SEASON 3 EPISODE 1";
-    title.innerHTML = "NOSEDIVE";
-    date.innerHTML = "02/19 - 3/20";
-    info.innerHTML = "A woman desperate to boost her social media score hits the jackpot when she’s invited to a swanky wedding. But the trip doesn’t go as planned."
-    modal.hidden = !modal.hidden;
-    break;
-case 'noseObj' :
-    img.src = 'images/modal_img/modal_nose.png';
-    ep.innerHTML = "SEASON 3 EPISODE 1";
-    title.innerHTML = "NOSEDIVE";
-    date.innerHTML = "02/19 - 3/20";
-    info.innerHTML = "A woman desperate to boost her social media score hits the jackpot when she’s invited to a swanky wedding. But the trip doesn’t go as planned."
-    modal.hidden = !modal.hidden;
-    break;
-case 'noseObj' :
-    img.src = 'images/modal_img/modal_nose.png';
-    ep.innerHTML = "SEASON 3 EPISODE 1";
-    title.innerHTML = "NOSEDIVE";
-    date.innerHTML = "02/19 - 3/20";
-    info.innerHTML = "A woman desperate to boost her social media score hits the jackpot when she’s invited to a swanky wedding. But the trip doesn’t go as planned."
-    modal.hidden = !modal.hidden;
-    break;
-let AstroSign = "";
-if ((whichMonth == 12 && whichDayOfMonth >= 22) || (whichMonth == 1 && whichDayOfMonth <= 19)) {
-  AstroSign = "hated";
-} else if ((whichMonth == 11 && whichDayOfMonth >= 22) || (whichMonth == 12 && whichDayOfMonth <= 21)) {
-  AstroSign = "ark";
-} else if ((whichMonth == 10 && whichDayOfMonth >= 24) || (whichMonth == 11 && whichDayOfMonth <= 21)) {
-  AstroSign = "black";
-} else if ((whichMonth == 9 && whichDayOfMonth >= 23) || (whichMonth == 10 && whichDayOfMonth <= 23)) {
-  AstroSign = "entire";
-} else if ((whichMonth == 8 && whichDayOfMonth >= 23) || (whichMonth == 9 && whichDayOfMonth <= 22)) {
-  AstroSign = "play";
-} else if ((whichMonth == 7 && whichDayOfMonth >= 23) || (whichMonth == 8 && whichDayOfMonth <= 22)) {
-  AstroSign = "croc";
-} else if ((whichMonth == 6 && whichDayOfMonth >= 22) || (whichMonth == 7 && whichDayOfMonth <= 22)) {
-  AstroSign = "shut";
-} else if ((whichMonth == 5 && whichDayOfMonth >= 21) || (whichMonth == 6 && whichDayOfMonth <= 21)) {
-  AstroSign = "hang";
-} else if ((whichMonth == 4 && whichDayOfMonth >= 20) || (whichMonth == 5 && whichDayOfMonth <= 20)) {
-  AstroSign = "san";
-} else if ((whichMonth == 3 && whichDayOfMonth >= 21) || (whichMonth == 4 && whichDayOfMonth <= 19)) {
-  AstroSign = "uss";
-} else if ((whichMonth == 2 && whichDayOfMonth >= 19) || (whichMonth == 3 && whichDayOfMonth <= 20)) {
-  AstroSign = "nose";
-} else if ((whichMonth == 1 && whichDayOfMonth >= 20) || (whichMonth == 2 && whichDayOfMonth <= 18)) {
-  AstroSign = "white";
-}
--->
-case 'ussObj' :
-    img.src = 'images/modal_img/modal_uss.png';
-    ep.innerHTML = "SEASON 4 EPISODE 1";
-    title.innerHTML = "USS CALLISTER";
-    date.innerHTML = "03/21 - 04/19";
-    info.innerHTML = "Capt. Robert Daly presides over his crew with wisdom and courage. But a new recruit will soon discover nothing on this spaceship is what it seems."
-    modal.hidden = !modal.hidden;
-    break;
-
-case 'sanObj' :
-    img.src = 'images/modal_img/modal_san.png';
-    ep.innerHTML = "SEASON 3 EPISODE 4";
-    title.innerHTML = "SAN JUNIPERO";
-    date.innerHTML = "04/20 - 05/20";
-    info.innerHTML = "In a seaside town in 1987, a shy young woman and an outgoing party girl strike up a powerful bond that seems to defy the laws of space and time."
-    modal.hidden = !modal.hidden;
-    break;
-
-case 'hangObj' :
-    img.src = 'images/modal_img/modal_hang.png';
-    ep.innerHTML = "SEASON 4 EPISODE 4";
-    title.innerHTML = "NOSEDIVE";
-    date.innerHTML = "02/19 - 3/20";
-    info.innerHTML = "Paired up by a dating program that puts an expiration date on all relationships, Frank and Amy soon begin to question the system's logic."
-    modal.hidden = !modal.hidden;
-    break;
-
-case 'whiteObj' :
-    img.src = 'images/modal_img/modal_white.png';
-    ep.innerHTML = "SEASON 2 EPISODE 2";
-    title.innerHTML = "NOSEDIVE";
-    date.innerHTML = "02/19 - 3/20";
-    info.innerHTML = "Victoria wakes up and cannot remember anything about her life. Everyone she encounters refuses to communicate with her."
-    modal.hidden = !modal.hidden;
-    break;
-
-case 'playObj' :
-    img.src = 'images/modal_img/modal_play.png';
-    ep.innerHTML = "SEASON 3 EPISODE 2";
-    title.innerHTML = "NOSEDIVE";
-    date.innerHTML = "02/19 - 03/20";
-    info.innerHTML = "An American traveler short on cash signs up to test a revolutionary new gaming system, only to discover the thrills are a little too real."
-    modal.hidden = !modal.hidden;
-    break;
-
-case 'shutObj' :
-    img.src = 'images/modal_img/modal_shut.png';
-    ep.innerHTML = "SEASON 3 EPISODE 3";
-    title.innerHTML = "NOSEDIVE";
-    date.innerHTML = "02/19 - 03/20";
-    info.innerHTML = "After a virus infects his laptop, a teen faces a daunting choice: carry out orders delivered by text message, or risk having intimate secrets exposed."
-    modal.hidden = !modal.hidden;
-    break;
-
-case 'hatedObj' :
-    img.src = 'images/modal_img/modal_hated.png';
-    ep.innerHTML = "SEASON 3 EPISODE 6";
-    title.innerHTML = "NOSEDIVE";
-    date.innerHTML = "02/19 - 03/20";
-    info.innerHTML = "The death of a journalist at the senter of a social media firestorm leads a veteran detective and her tech-savvy apprentice to a chilling discovery."
-    modal.hidden = !modal.hidden;
-    break;
-
-case 'blackObj' :
-    img.src = 'images/modal_img/modal_black.png';
-    ep.innerHTML = "SEASON 4 EPISODE 6";
-    title.innerHTML = "NOSEDIVE";
-    date.innerHTML = "02/19 - 03/20";
-    info.innerHTML = "On a dusty stretch of highway, a traveler stumbles across a museum that boasts rare criminal artifacts -- and a disturbing main attraction."
-    modal.hidden = !modal.hidden;
-    break;
-
-case 'entireObj' :
-    img.src = 'images/modal_img/modal_entire.png';
-    ep.innerHTML = "SEASON 1 EPISODE 3";
-    title.innerHTML = "NOSEDIVE";
-    date.innerHTML = "02/19 - 03/20";
-    info.innerHTML = "In the near future, everyone has access to a memory implant that records everything humans do, see, and hear."
-    modal.hidden = !modal.hidden;
-    break;
-
-case 'crocObj' :
-    img.src = 'images/modal_img/modal_croc.png';
-    ep.innerHTML = "SEASON 4 EPISODE 3";
-    title.innerHTML = "CROCODILE";
-    date.innerHTML = "02/19 - 03/20";
-    info.innerHTML = "Architect Mia scrambles to keep a dark secret under wraps, while insurance investigator Shazia harvests people's memories of a nearby accident scene."
-    modal.hidden = !modal.hidden;
-    break;
-
-case 'arkObj' :
-    img.src = 'images/modal_img/modal_ark.png';
-    ep.innerHTML = "SEASON 4 EPISODE 2";
-    title.innerHTML = "ARKANGEL";
-    date.innerHTML = "11/22 - 12/21";
-    info.innerHTML = "Worried about her daughter's safety, single mom Marie signs up for a cutting-edge device that monitors the girl's whereabouts -- and much more. "
-    modal.hidden = !modal.hidden;
-    break;
-    }

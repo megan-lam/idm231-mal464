@@ -92,8 +92,12 @@ img.blackmirror{
 }
 
 #submit{
+    border-radius: 5px;
     background-color: whitesmoke;
     outline: none;
+}
+.help{
+    background-image: url(../images/help.svg);
 }
 .nosedive{
     background-image: url("../images/cropped/cropped_nosedive1.png");
