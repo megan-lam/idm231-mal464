@@ -94,7 +94,7 @@ case 'nose' :
     ep.innerHTML = "SEASON 3 EPISODE 1";
     title.innerHTML = "NOSEDIVE";
     date.innerHTML = "02/19 - 03/20";
-    info.innerHTML = "A woman desperate to boost her social media score hits the jackpot when she’s invited to a swanky wedding. But the trip doesn’t go as planned.";
+    info.innerHTML = "In a world where social standing gives you privelege, Lacy gets an opportunity to boost her ratings at a friend's wedding - but things don't go exactly as planned.";
     modal.hidden = !modal.hidden;
     stopAllAudio();
     s_nose.play();
@@ -105,7 +105,7 @@ case 'uss' :
     ep.innerHTML = "SEASON 4 EPISODE 1";
     title.innerHTML = "USS CALLISTER";
     date.innerHTML = "03/21 - 04/19";
-    info.innerHTML = "Capt. Robert Daly presides over his crew with wisdom and courage. But a new recruit will soon discover nothing on this spaceship is what it seems.";
+    info.innerHTML = "Captain Robert Daly and his crew welcome a new member on their spaceship, but the new member quickly realizes something's wrong.";
     modal.hidden = !modal.hidden;
     stopAllAudio();
     s_uss.play();
@@ -116,7 +116,7 @@ case 'san' :
     ep.innerHTML = "SEASON 3 EPISODE 4";
     title.innerHTML = "SAN JUNIPERO";
     date.innerHTML = "04/20 - 05/20";
-    info.innerHTML = "In a seaside town in 1987, a shy young woman and an outgoing party girl strike up a powerful bond that seems to defy the laws of space and time.";
+    info.innerHTML = "Back in 1987, a shy introvert meets a extroverted party girl and they quickly begin to develop a timeless bond.";
     modal.hidden = !modal.hidden;
     stopAllAudio();
     s_san.play();
@@ -127,7 +127,7 @@ case 'hang' :
     ep.innerHTML = "SEASON 4 EPISODE 4";
     title.innerHTML = "HANG THE DJ";
     date.innerHTML = "05/21 - 06/21";
-    info.innerHTML = "Paired up by a dating program that puts an expiration date on all relationships, Frank and Amy soon begin to question the system's logic.";
+    info.innerHTML = "Frank and Amy begin to question the legitimacy of a trusted dating program that gives all relationships an expiration date.";
     modal.hidden = !modal.hidden;
     stopAllAudio();
     s_hang.play();
@@ -138,7 +138,7 @@ case 'white' :
     ep.innerHTML = "SEASON 2 EPISODE 2";
     title.innerHTML = "WHITEBEAR";
     date.innerHTML = "01/20 - 02/18";
-    info.innerHTML = "Victoria wakes up and cannot remember anything about her life. Everyone she encounters refuses to communicate with her.";
+    info.innerHTML = "Waking up dazed and confused, Victoria tries to navigate through the world but it seems as if everyone around her is just watching.";
     modal.hidden = !modal.hidden;
     stopAllAudio();
     s_white.play();
@@ -149,7 +149,7 @@ case 'play' :
     ep.innerHTML = "SEASON 3 EPISODE 2";
     title.innerHTML = "PLAYTEST";
     date.innerHTML = "08/23 - 09/22";
-    info.innerHTML = "An American traveler short on cash signs up to test a revolutionary new gaming system, only to discover the thrills are a little too real.";
+    info.innerHTML = "In an attempt to make some quick cash, an American traveler signs up to test a revolutionary new gaming system, but soon realizes the game is a little too realistic.";
     modal.hidden = !modal.hidden;
     stopAllAudio();
     s_play.play();
@@ -160,7 +160,7 @@ case 'shut' :
     ep.innerHTML = "SEASON 3 EPISODE 3";
     title.innerHTML = "SHUT UP AND DANCE";
     date.innerHTML = "06/22 - 07/22";
-    info.innerHTML = "After a virus infects his laptop, a teen faces a daunting choice: carry out orders delivered by text message, or risk having intimate secrets exposed.";
+    info.innerHTML = "A teen tries to keep his secrets in the dark after a virus takes over his laptop and begins receiving tasks from an anonymous messenger.";
     modal.hidden = !modal.hidden;
     stopAllAudio();
     s_shut.play();
@@ -171,7 +171,7 @@ case 'hated' :
     ep.innerHTML = "SEASON 3 EPISODE 6";
     title.innerHTML = "HATED IN THE NATION";
     date.innerHTML = "12/22 - 01/19";
-    info.innerHTML = "The death of a journalist at the senter of a social media firestorm leads a veteran detective and her tech-savvy apprentice to a chilling discovery.";
+    info.innerHTML = "A journalist under fire dies, putting a veteran detective and her rookie partner's true skills to the test.";
     modal.hidden = !modal.hidden;
     stopAllAudio();
     s_hated.play();
@@ -182,7 +182,7 @@ case 'black' :
     ep.innerHTML = "SEASON 4 EPISODE 6";
     title.innerHTML = "BLACK MUSEUM";
     date.innerHTML = "10/24 - 11/21";
-    info.innerHTML = "On a dusty stretch of highway, a traveler stumbles across a museum that boasts rare criminal artifacts -- and a disturbing main attraction.";
+    info.innerHTML = "A young girl comes across a museum that boasts criminal artifacts. With high tech devices and seemingly harmless tools, nothing compares to the main attraction.";
     modal.hidden = !modal.hidden;
     stopAllAudio();
     s_black.play();
@@ -193,7 +193,7 @@ case 'entire' :
     ep.innerHTML = "SEASON 1 EPISODE 3";
     title.innerHTML = "ENTIRE HISTORY OF YOU";
     date.innerHTML = "09/23 - 10/23";
-    info.innerHTML = "In the near future, everyone has access to a memory implant that records everything humans do, see, and hear.";
+    info.innerHTML = "Grains: the next innovation in technology that allows people to record and rewatch everything they do, see, and say, but is it really for the better?";
     modal.hidden = !modal.hidden;
     stopAllAudio();
     s_entire.play();
@@ -204,7 +204,7 @@ case 'croc' :
     ep.innerHTML = "SEASON 4 EPISODE 3";
     title.innerHTML = "CROCODILE";
     date.innerHTML = "07/23 - 08/22";
-    info.innerHTML = "Architect Mia scrambles to keep a dark secret under wraps, while insurance investigator Shazia harvests people's memories of a nearby accident scene.";
+    info.innerHTML = "An insurance investigator continues with her daily tasks until she comes across an accident that may be part of something much bigger.";
     modal.hidden = !modal.hidden;
     stopAllAudio();
     s_croc.play();
@@ -215,7 +215,7 @@ case 'ark' :
     ep.innerHTML = "SEASON 4 EPISODE 2";
     title.innerHTML = "ARKANGEL";
     date.innerHTML = "11/22 - 12/21";
-    info.innerHTML = "Worried about her daughter's safety, single mom Marie signs up for a cutting-edge device that monitors the girl's whereabouts -- and much more. ";
+    info.innerHTML = "After a close encounter with her daughter's safety, Marie opts to install a tracking and monitoring device, but that's not all it does.";
     modal.hidden = !modal.hidden;
     stopAllAudio();
     s_ark.play();
